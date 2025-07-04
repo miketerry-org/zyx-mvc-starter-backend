@@ -1,0 +1,30 @@
+{
+  "name": "zyx-mvc-starter",
+  "version": "0.20.0",
+  "description": "A MVC application starter built with Zyx packages",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development nodemon index.js",
+    "debug": "NODE_ENV=debug nodemon index.js",
+    "encrypt": "./_encrypt_all.sh",
+    "test": "NODE_ENV=test node --test ./test",
+    "tests": "NODE_ENV=test node --test ./tests",
+    "test:server": "NODE_ENV=test nodemon --watch ../rest --watch ../schema --watch index.js --ext js,json index.js"
+  },
+  "keywords": [
+    "mvc",
+    "starter",
+    "zyx"
+  ],
+  "author": "Mike Terry",
+  "license": "MIT",
+  "dependencies": {
+    "zyx-base": "^0.20.0",
+    "zyx-env": "^0.20.0",
+    "zyx-mongodb": "^0.20.0",
+    "zyx-mvc": "^0.20.0",
+    "zyx-nodemailer": "^0.20.0",
+    "zyx-schema": "^0.20.2",
+    "zyx-system": "^0.20.0"
+  }
+}
