@@ -1,6 +1,6 @@
 {
   "name": "zyx-mvc-starter",
-  "version": "0.20.0",
+  "version": "0.20.1",
   "description": "A MVC application starter built with Zyx packages",
   "main": "index.js",
   "scripts": {
@@ -19,12 +19,10 @@
   "author": "Mike Terry",
   "license": "MIT",
   "dependencies": {
-    "zyx-base": "^0.20.0",
-    "zyx-env": "^0.20.0",
-    "zyx-mongodb": "^0.20.0",
-    "zyx-mvc": "^0.20.0",
-    "zyx-nodemailer": "^0.20.0",
-    "zyx-schema": "^0.20.2",
-    "zyx-system": "^0.20.0"
+    "zyx-base": "^0.20.6",
+    "zyx-env": "^0.21.3",
+    "zyx-mvc": "^0.20.6",
+    "zyx-schema": "^0.20.5",
+    "zyx-system": "^0.20.3"
   }
 }
